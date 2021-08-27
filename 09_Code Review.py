@@ -4,7 +4,7 @@ Bad Code example for refactoring in Lecture 5 Code Review Demo
 
 def main():
     """get and store names and breeds of dogs in dictionary"""
-    totalDog = int(input("How many Dogs do you have?: "))
+    totalDog = int(input("How many dogs do you have?: "))
     dogDict = {}
 
 
