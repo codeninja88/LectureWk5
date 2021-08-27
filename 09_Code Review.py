@@ -1,9 +1,13 @@
+"""
+Bad Code example for refactoring in Lecture 5 Code Review Demo
+"""
+
 def main():
     """get and store names and breeds of dogs in dictionary"""
     totalDog = int(input("How many Dogs do you have?: "))
     dogDict = {}
 
-    
+
     if totalDog > 0:
         for i in range(totalDog):
             name = input("Dog {}'s Name?: ".format(i))
